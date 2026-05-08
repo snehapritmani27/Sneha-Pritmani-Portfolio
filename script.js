@@ -1,5 +1,5 @@
 <script>
-  // ── TYPEWRITER ──
+// ── TYPEWRITER ──
   const lines = [
     "Building bulletproof test frameworks for BFSI",
     "Selenium · Appium · Rest Assured · BDD",
