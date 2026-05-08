@@ -1,134 +1,182 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Sneha Pritmani — QA Automation Engineer</title>
-<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Mono:wght@400;500&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet">
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Sneha Pritmani – QA Automation Engineer</title>
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Mono:wght@300;400;500&family=Lora:ital,wght@0,400;1,400&display=swap" rel="stylesheet" />
 <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 <script src="script.js"></script>
 
+<!-- FLOATING HIRE BADGE -->
+<div class="hire-badge">
+  <span class="pulse"></span>
+  Available for Hire
+</div>
+
+<!-- FLOATING QUICK CONTACT -->
+<div class="quick-contact">
+  <a class="qc-btn email" href="mailto:snehapritmani79@gmail.com">
+    <span class="qc-icon">✉</span>
+    <span class="qc-label">snehapritmani79@gmail.com</span>
+  </a>
+  <a class="qc-btn linkedin" href="https://linkedin.com/in/sneha-pritmani27" target="_blank">
+    <span class="qc-icon">🔗</span>
+    <span class="qc-label">LinkedIn Profile</span>
+  </a>
+</div>
+
 <!-- NAV -->
 <nav>
-  <a href="#" class="nav-logo">SP // QA</a>
-  <ul class="nav-links">
-    <li><a href="#skills">Skills</a></li>
-    <li><a href="#experience">Experience</a></li>
-    <li><a href="#projects">Projects</a></li>
-    <li><a href="#contact">Contact</a></li>
-  </ul>
+  <div class="inner">
+    <a class="nav-logo" href="#">SP_</a>
+    <ul class="nav-links">
+      <li><a href="#value">Why Hire</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </div>
 </nav>
 
 <!-- HERO -->
-<section class="hero">
-  <div class="hero-left">
-    <div class="hero-tag">QA Automation Engineer · BFSI</div>
-    <h1 class="hero-name">Sneha<br><em>Pritmani</em></h1>
-    <p class="hero-subtitle">Breaking things so users don't have to.</p>
-    <p class="hero-desc">2+ years building scalable automation frameworks across Web, Mobile & API layers at HSBC — reducing regression cycles by 42% and manual effort by 35% in regulated banking environments.</p>
-    <div class="hero-ctas">
-      <a href="mailto:snehapritmani79@gmail.com" class="btn-primary">Get in Touch ↗</a>
-      <a href="https://linkedin.com/in/sneha-pritmani27" target="_blank" class="btn-outline">LinkedIn →</a>
+<section id="hero">
+  <div class="hero-orb hero-orb-1"></div>
+  <div class="hero-orb hero-orb-2"></div>
+  <div class="wrapper">
+    <div class="hero-eyebrow fade-up delay-1">
+      <span class="line"></span>
+      <span>QA Automation Engineer · BFSI · Pune, India</span>
     </div>
-  </div>
-  <div class="hero-right">
-    <div class="hero-graphic"></div>
-    <div class="hero-stats">
-      <div class="stat-block">
-        <div class="stat-num">42%</div>
-        <div class="stat-label">Regression cycle cut</div>
-      </div>
-      <div class="stat-block">
-        <div class="stat-num">135+</div>
-        <div class="stat-label">Test cases automated</div>
-      </div>
-      <div class="stat-block">
-        <div class="stat-num">10+</div>
-        <div class="stat-label">Zero-defect releases</div>
-      </div>
-      <div class="stat-block">
-        <div class="stat-num">250+</div>
-        <div class="stat-label">Jira defects managed</div>
-      </div>
+    <h1 class="hero-name fade-up delay-2">Sneha<br /><span>Pritmani</span></h1>
+    <p class="hero-title fade-up delay-3">
+      <span class="typed-text" id="typed"></span><span class="cursor"></span>
+    </p>
+    <div class="trust-strip fade-up delay-3">
+      <span class="trust-item"><span class="ti-dot"></span>2+ yrs @ HSBC BFSI</span>
+      <span class="trust-item"><span class="ti-dot"></span>Java · Selenium · Appium</span>
+      <span class="trust-item"><span class="ti-dot"></span>10+ Zero-Defect Releases</span>
+      <span class="trust-item"><span class="ti-dot"></span>Oracle Certified</span>
+    </div>
+    <p class="hero-summary fade-up delay-4">
+      Results-driven Automation QA with 2+ years at HSBC engineering scalable
+      test suites across Web, Mobile & API layers. Expert in Java · Selenium · Appium ·
+      Rest Assured with deep BDD and CI/CD integration experience — delivered
+      zero critical defect escapes across 10+ production releases in regulated banking.
+    </p>
+    <div class="hero-stats fade-up delay-4">
+      <div class="stat"><span class="stat-num">42%</span><span class="stat-label">Regression cycle reduction</span></div>
+      <div class="stat"><span class="stat-num">35%</span><span class="stat-label">Manual effort saved</span></div>
+      <div class="stat"><span class="stat-num">135+</span><span class="stat-label">Automated test cases</span></div>
+      <div class="stat"><span class="stat-num">10+</span><span class="stat-label">Zero-defect releases</span></div>
+    </div>
+    <div class="hero-cta fade-up delay-5">
+      <a class="btn-primary" href="mailto:snehapritmani79@gmail.com">✉ Get In Touch</a>
+      <a class="btn-outline" href="https://linkedin.com/in/sneha-pritmani27" target="_blank">↗ LinkedIn</a>
+      <span class="btn-text">Open to QA Automation &amp; SDET roles</span>
     </div>
   </div>
 </section>
 
-<!-- SKILLS -->
-<section id="skills">
-  <div class="section-header">
-    <span class="section-num">01</span>
-    <h2 class="section-title">Technical Arsenal</h2>
+<!-- ACHIEVEMENT TICKER -->
+<div class="ticker-wrap">
+  <div class="ticker-track" id="ticker">
+    <span class="ticker-item"><span class="sep">★</span> 42% Regression Cycle Reduction</span>
+    <span class="ticker-item"><span class="sep">★</span> 135+ Automated Test Cases</span>
+    <span class="ticker-item"><span class="sep">★</span> 10+ Zero-Defect Releases</span>
+    <span class="ticker-item"><span class="sep">★</span> Circle of Excellence × 3 at HSBC</span>
+    <span class="ticker-item"><span class="sep">★</span> Oracle Java Certified</span>
+    <span class="ticker-item"><span class="sep">★</span> 250+ Jira Defects Managed</span>
+    <span class="ticker-item"><span class="sep">★</span> 100+ Payment Flows Automated</span>
+    <span class="ticker-item"><span class="sep">★</span> 8.86 CGPA · B.Tech CSE</span>
+    <span class="ticker-item"><span class="sep">★</span> 42% Regression Cycle Reduction</span>
+    <span class="ticker-item"><span class="sep">★</span> 135+ Automated Test Cases</span>
+    <span class="ticker-item"><span class="sep">★</span> 10+ Zero-Defect Releases</span>
+    <span class="ticker-item"><span class="sep">★</span> Circle of Excellence × 3 at HSBC</span>
+    <span class="ticker-item"><span class="sep">★</span> Oracle Java Certified</span>
+    <span class="ticker-item"><span class="sep">★</span> 250+ Jira Defects Managed</span>
+    <span class="ticker-item"><span class="sep">★</span> 100+ Payment Flows Automated</span>
+    <span class="ticker-item"><span class="sep">★</span> 8.86 CGPA · B.Tech CSE</span>
   </div>
-  <div class="skills-grid">
-    <div class="skill-category">
-      <div class="skill-cat-label">Languages</div>
-      <div class="skill-cat-name">Core Languages</div>
-      <div class="skill-tags">
-        <span class="tag">Java</span>
-        <span class="tag">Python</span>
-        <span class="tag">C</span>
-        <span class="tag">C++</span>
+</div>
+
+<!-- METRICS BAND -->
+<div class="metrics-band">
+  <div class="wrapper">
+    <div class="metrics-grid">
+      <div class="metric-item">
+        <span class="metric-num">55+</span>
+        <span class="metric-label">Web UI Tests</span>
+        <span class="metric-sub">30% → 52% coverage</span>
+      </div>
+      <div class="metric-item">
+        <span class="metric-num">45+</span>
+        <span class="metric-label">Mobile Scenarios</span>
+        <span class="metric-sub">Android & iOS</span>
+      </div>
+      <div class="metric-item">
+        <span class="metric-num">35+</span>
+        <span class="metric-label">API Test Cases</span>
+        <span class="metric-sub">~48% coverage</span>
+      </div>
+      <div class="metric-item">
+        <span class="metric-num">250+</span>
+        <span class="metric-label">Jira Defects</span>
+        <span class="metric-sub">Full lifecycle managed</span>
+      </div>
+      <div class="metric-item">
+        <span class="metric-num">100+</span>
+        <span class="metric-label">Payment Flows</span>
+        <span class="metric-sub">Zero critical escapes</span>
       </div>
     </div>
-    <div class="skill-category">
-      <div class="skill-cat-label">Web & Mobile</div>
-      <div class="skill-cat-name">Automation Frameworks</div>
-      <div class="skill-tags">
-        <span class="tag">Selenium WebDriver</span>
-        <span class="tag">Appium (Android + iOS)</span>
-        <span class="tag">Cucumber BDD</span>
-        <span class="tag">TestNG</span>
-        <span class="tag">JUnit</span>
-        <span class="tag">Gherkin</span>
-      </div>
+  </div>
+</div>
+
+<!-- WHY HIRE ME -->
+<section id="value">
+  <div class="wrapper">
+    <div class="section-label reveal">
+      <span class="tag">00 / Why Hire Me</span>
+      <span class="rule"></span>
     </div>
-    <div class="skill-category">
-      <div class="skill-cat-label">Backend testing</div>
-      <div class="skill-cat-name">API Testing</div>
-      <div class="skill-tags">
-        <span class="tag">Rest Assured</span>
-        <span class="tag">Postman</span>
-        <span class="tag">Swagger UI</span>
-        <span class="tag">Insomnia</span>
-        <span class="tag">JSON Schema</span>
+    <h2 class="section-title reveal">Recruiter Value Snapshot</h2>
+    <p class="section-sub reveal">What I bring from day one — beyond the tech stack</p>
+
+    <div class="value-grid">
+      <div class="value-card reveal">
+        <span class="value-icon">🏦</span>
+        <div class="value-heading">Proven in BFSI</div>
+        <div class="value-desc">2+ years inside HSBC's regulated banking environment — well-versed in compliance-sensitive release processes, data security standards, and high-stakes payment systems.</div>
       </div>
-    </div>
-    <div class="skill-category">
-      <div class="skill-cat-label">DevOps</div>
-      <div class="skill-cat-name">CI/CD & Build</div>
-      <div class="skill-tags">
-        <span class="tag">Jenkins</span>
-        <span class="tag">Maven</span>
-        <span class="tag">Gradle</span>
-        <span class="tag">Git / GitHub</span>
-        <span class="tag">Nexus</span>
-        <span class="tag">BrowserStack</span>
+      <div class="value-card reveal">
+        <span class="value-icon">🔁</span>
+        <div class="value-heading">Full-Stack Test Coverage</div>
+        <div class="value-desc">One of few engineers who own Web, Mobile, and API automation simultaneously — no silos, no handoffs. I architect and maintain all three layers end-to-end.</div>
       </div>
-    </div>
-    <div class="skill-category">
-      <div class="skill-cat-label">Design Patterns</div>
-      <div class="skill-cat-name">Architecture</div>
-      <div class="skill-tags">
-        <span class="tag">Page Object Model</span>
-        <span class="tag">Singleton</span>
-        <span class="tag">Data-Driven</span>
-        <span class="tag">Keyword-Driven</span>
-        <span class="tag">BDD</span>
+      <div class="value-card reveal">
+        <span class="value-icon">⚡</span>
+        <div class="value-heading">CI/CD Native</div>
+        <div class="value-desc">Automation isn't bolted on — it's baked into Jenkins pipelines with nightly runs, Allure HTML trend reports, and shift-left smoke tests on every feature branch.</div>
       </div>
-    </div>
-    <div class="skill-category">
-      <div class="skill-cat-label">Process</div>
-      <div class="skill-cat-name">Methodologies</div>
-      <div class="skill-tags">
-        <span class="tag">Agile / Scrum</span>
-        <span class="tag">Shift-Left Testing</span>
-        <span class="tag">Test Strategy</span>
-        <span class="tag">Jira</span>
-        <span class="tag">Confluence</span>
-        <span class="tag">Allure Reports</span>
+      <div class="value-card reveal">
+        <span class="value-icon">📉</span>
+        <div class="value-heading">Measurable ROI</div>
+        <div class="value-desc">42% faster regression cycles, 35% less manual effort, zero critical production escapes. Every automation decision is tied to a business outcome, not just coverage numbers.</div>
+      </div>
+      <div class="value-card reveal">
+        <span class="value-icon">🏆</span>
+        <div class="value-heading">Recognised Performer</div>
+        <div class="value-desc">Circle of Excellence (×3) and Pat on the Back Award at HSBC — awarded for delivery quality and going beyond scope on major release cycles.</div>
+      </div>
+      <div class="value-card reveal">
+        <span class="value-icon">📐</span>
+        <div class="value-heading">Framework Architect</div>
+        <div class="value-desc">Designed and owns a modular POM + BDD framework that cut script duplication by 40% and is extensible across product lines — not just a script writer.</div>
       </div>
     </div>
   </div>
@@ -136,174 +184,314 @@
 
 <!-- EXPERIENCE -->
 <section id="experience">
-  <div class="section-header">
-    <span class="section-num">02</span>
-    <h2 class="section-title">Experience</h2>
-  </div>
-  <div class="exp-timeline">
-    <div class="exp-item fade-up">
-      <div class="exp-period">Aug 2023 — Present</div>
-      <div class="exp-role">Software Engineer — QA Automation</div>
-      <div class="exp-company">HSBC · Pune, Maharashtra</div>
+  <div class="wrapper">
+    <div class="section-label reveal">
+      <span class="tag">01 / Experience</span>
+      <span class="rule"></span>
+    </div>
+    <h2 class="section-title reveal">Professional History</h2>
+    <p class="section-sub reveal">Building automation infrastructure in regulated banking environments</p>
 
-      <div class="exp-highlights">
-        <div class="highlight-card">
-          <div class="highlight-num">42%</div>
-          <div class="highlight-desc">Regression cycle reduction</div>
+    <div class="exp-card reveal">
+      <div class="exp-header">
+        <div class="exp-role">Software Engineer – QA Automation</div>
+        <div class="exp-period">Aug 2023 – Present</div>
+      </div>
+      <div class="exp-company">HSBC · Pune, Maharashtra</div>
+      <div class="exp-highlight">🏆 Circle of Excellence ×3 · Pat on the Back Award</div>
+
+      <div class="exp-layers">
+        <div class="layer-block">
+          <div class="layer-title">Web Automation</div>
+          <ul>
+            <li>Architected modular POM framework (Selenium + Java) with unified BDD suite, reducing script duplication ~40%</li>
+            <li>Automated 55+ Web UI cases, scaling coverage from 30% → 52%</li>
+            <li>Data-driven testing with parameterized TestNG suites & Excel/JSON sources</li>
+            <li>Cross-browser execution on BrowserStack with Jenkins nightly & Allure HTML reporting</li>
+          </ul>
         </div>
-        <div class="highlight-card" style="border-color: var(--accent2);">
-          <div class="highlight-num">35%</div>
-          <div class="highlight-desc">Manual effort saved per sprint</div>
+        <div class="layer-block">
+          <div class="layer-title">Mobile Automation</div>
+          <ul>
+            <li>Automated 45+ end-to-end scenarios for Android & iOS (Appium + XCode)</li>
+            <li>Real-device cloud testing via BrowserStack; reduced regression runtime 28–32%</li>
+            <li>Shift-left: integrated mobile smoke tests into feature branch pipelines for earlier regression detection</li>
+          </ul>
         </div>
-        <div class="highlight-card" style="border-color: #5a8a3c;">
-          <div class="highlight-num">55+</div>
-          <div class="highlight-desc">Web UI test cases automated</div>
-        </div>
-        <div class="highlight-card" style="border-color: #8a5a3c;">
-          <div class="highlight-num">45+</div>
-          <div class="highlight-desc">Mobile E2E test scenarios</div>
+        <div class="layer-block">
+          <div class="layer-title">API Automation</div>
+          <ul>
+            <li>Automated 35+ REST API test cases to ~48% coverage (Rest Assured)</li>
+            <li>Centralized test data layer with dynamic payloads; cut cycle time 37–42% across 100+ payment flows</li>
+            <li>Full defect lifecycle: 250+ Jira issues, zero critical escapes across 10+ production releases</li>
+          </ul>
         </div>
       </div>
+    </div>
+  </div>
+</section>
 
-      <ul class="exp-bullets">
-        <li>Architected modular POM framework (Selenium + Java) with BDD/Cucumber suite, cutting script duplication by ~40%</li>
-        <li>Automated Web UI test cases scaling coverage from 30% to ~52% across retail banking workflows</li>
-        <li>Delivered 45+ mobile end-to-end tests for Android & iOS on BrowserStack cloud grids</li>
-        <li>Built REST API test suite with 35+ cases — JSON schema, response codes, headers, SLA response times</li>
-        <li>Managed full defect lifecycle for 250+ Jira issues; zero critical escapes across 10+ production releases</li>
-        <li>Applied shift-left practices with mobile smoke tests in feature branch pipelines</li>
-      </ul>
+<!-- SKILLS -->
+<section id="skills">
+  <div class="wrapper">
+    <div class="section-label reveal">
+      <span class="tag">02 / Skills</span>
+      <span class="rule"></span>
+    </div>
+    <h2 class="section-title reveal">Technical Arsenal</h2>
+    <p class="section-sub reveal">Languages, frameworks & tools across the automation stack</p>
+
+    <div class="skills-grid">
+      <div class="skill-group reveal">
+        <div class="skill-group-title"><span class="dot"></span>Languages</div>
+        <div class="skill-tags">
+          <span class="skill-tag">Java</span>
+          <span class="skill-tag">Python</span>
+          <span class="skill-tag">C</span>
+          <span class="skill-tag">C++</span>
+        </div>
+      </div>
+      <div class="skill-group reveal">
+        <div class="skill-group-title"><span class="dot"></span>Automation Frameworks</div>
+        <div class="skill-tags">
+          <span class="skill-tag">Selenium WebDriver</span>
+          <span class="skill-tag">Appium</span>
+          <span class="skill-tag">Rest Assured</span>
+          <span class="skill-tag">Cucumber BDD</span>
+          <span class="skill-tag">Gherkin</span>
+          <span class="skill-tag">TestNG</span>
+          <span class="skill-tag">JUnit</span>
+        </div>
+      </div>
+      <div class="skill-group reveal">
+        <div class="skill-group-title"><span class="dot"></span>Design Patterns</div>
+        <div class="skill-tags">
+          <span class="skill-tag">Page Object Model</span>
+          <span class="skill-tag">Singleton</span>
+          <span class="skill-tag">Data-Driven</span>
+          <span class="skill-tag">Keyword-Driven</span>
+        </div>
+      </div>
+      <div class="skill-group reveal">
+        <div class="skill-group-title"><span class="dot"></span>API Testing</div>
+        <div class="skill-tags">
+          <span class="skill-tag">Postman</span>
+          <span class="skill-tag">Insomnia</span>
+          <span class="skill-tag">Swagger UI</span>
+          <span class="skill-tag">JSON Schema</span>
+          <span class="skill-tag">REST / HTTP</span>
+        </div>
+      </div>
+      <div class="skill-group reveal">
+        <div class="skill-group-title"><span class="dot"></span>CI/CD & Build</div>
+        <div class="skill-tags">
+          <span class="skill-tag">Jenkins</span>
+          <span class="skill-tag">Maven</span>
+          <span class="skill-tag">Gradle</span>
+          <span class="skill-tag">Git</span>
+          <span class="skill-tag">GitHub</span>
+          <span class="skill-tag">Nexus</span>
+          <span class="skill-tag">Allure Reports</span>
+        </div>
+      </div>
+      <div class="skill-group reveal">
+        <div class="skill-group-title"><span class="dot"></span>Tools & Cloud</div>
+        <div class="skill-tags">
+          <span class="skill-tag">Jira</span>
+          <span class="skill-tag">Confluence</span>
+          <span class="skill-tag">BrowserStack</span>
+          <span class="skill-tag">XCode Simulator</span>
+          <span class="skill-tag">Android Emulator</span>
+        </div>
+      </div>
+      <div class="skill-group reveal">
+        <div class="skill-group-title"><span class="dot"></span>Testing Types</div>
+        <div class="skill-tags">
+          <span class="skill-tag">UI Automation</span>
+          <span class="skill-tag">Mobile Automation</span>
+          <span class="skill-tag">API Automation</span>
+          <span class="skill-tag">Regression</span>
+          <span class="skill-tag">Smoke</span>
+          <span class="skill-tag">Accessibility</span>
+          <span class="skill-tag">Tealium Tag</span>
+        </div>
+      </div>
+      <div class="skill-group reveal">
+        <div class="skill-group-title"><span class="dot"></span>Methodologies</div>
+        <div class="skill-tags">
+          <span class="skill-tag">Agile / Scrum</span>
+          <span class="skill-tag">BDD</span>
+          <span class="skill-tag">Shift-Left Testing</span>
+          <span class="skill-tag">Test Strategy</span>
+          <span class="skill-tag">QA</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- PROFICIENCY BARS -->
+    <div class="proficiency-section reveal" id="prof-section">
+      <div class="prof-title">Core Proficiency · Self-Assessment</div>
+      <div class="prof-grid">
+        <div class="prof-item">
+          <div class="prof-header"><span class="prof-name">Java</span><span class="prof-pct">90%</span></div>
+          <div class="prof-bar"><div class="prof-fill gold-fill" data-width="90"></div></div>
+        </div>
+        <div class="prof-item">
+          <div class="prof-header"><span class="prof-name">Selenium WebDriver</span><span class="prof-pct">92%</span></div>
+          <div class="prof-bar"><div class="prof-fill" data-width="92"></div></div>
+        </div>
+        <div class="prof-item">
+          <div class="prof-header"><span class="prof-name">Appium (Mobile)</span><span class="prof-pct">85%</span></div>
+          <div class="prof-bar"><div class="prof-fill gold-fill" data-width="85"></div></div>
+        </div>
+        <div class="prof-item">
+          <div class="prof-header"><span class="prof-name">Rest Assured (API)</span><span class="prof-pct">87%</span></div>
+          <div class="prof-bar"><div class="prof-fill" data-width="87"></div></div>
+        </div>
+        <div class="prof-item">
+          <div class="prof-header"><span class="prof-name">Cucumber BDD</span><span class="prof-pct">88%</span></div>
+          <div class="prof-bar"><div class="prof-fill gold-fill" data-width="88"></div></div>
+        </div>
+        <div class="prof-item">
+          <div class="prof-header"><span class="prof-name">Jenkins / CI-CD</span><span class="prof-pct">80%</span></div>
+          <div class="prof-bar"><div class="prof-fill" data-width="80"></div></div>
+        </div>
+      </div>
     </div>
   </div>
 </section>
 
 <!-- PROJECTS -->
 <section id="projects">
-  <div class="section-header">
-    <span class="section-num">03</span>
-    <h2 class="section-title">Key Projects</h2>
-  </div>
-
-  <div class="project-card fade-up">
-    <div class="proj-left">
-      <div>
-        <div class="proj-tag">HSBC · Banking</div>
-        <div class="proj-title">Transaction Banking — Retail FX & Payments</div>
-      </div>
-      <div class="proj-stack">
-        <span>Java</span><span>Selenium</span><span>Appium</span><span>Rest Assured</span>
-        <span>TestNG</span><span>Postman</span><span>Jenkins</span><span>Allure</span>
-      </div>
+  <div class="wrapper">
+    <div class="section-label reveal">
+      <span class="tag">03 / Projects</span>
+      <span class="rule"></span>
     </div>
-    <div class="proj-right">
-      <p class="proj-desc">End-to-end test strategy and quality assurance delivery for 100+ customer payment flows spanning initiation → FX conversion → payment confirmation. Built a tri-layer automation suite (Browser + Mobile + API) with reusable auth and payload utilities. Produced Allure trend reports enabling quality monitoring across 10+ releases with zero critical defect escapes to production.</p>
-      <div class="proj-outcomes">
-        <div class="outcome">
-          <span class="outcome-num">100+</span>
-          <span class="outcome-label">Payment flows covered</span>
-        </div>
-        <div class="outcome">
-          <span class="outcome-num">3-layer</span>
-          <span class="outcome-label">Automation coverage</span>
-        </div>
-        <div class="outcome">
-          <span class="outcome-num">0</span>
-          <span class="outcome-label">Critical escapes</span>
-        </div>
+    <h2 class="section-title reveal">Key Projects</h2>
+    <p class="section-sub reveal">High-stakes delivery in retail banking & payments</p>
+
+    <div class="project-card reveal">
+      <div class="project-name">Transaction Banking</div>
+      <div class="project-org">HSBC · Retail FX, Domestic Payments & Transfers</div>
+      <div class="project-tags">
+        <span class="project-tag">Java</span>
+        <span class="project-tag">Selenium WebDriver</span>
+        <span class="project-tag">Appium</span>
+        <span class="project-tag">Rest Assured</span>
+        <span class="project-tag">TestNG</span>
+        <span class="project-tag">Postman</span>
+        <span class="project-tag">Jenkins</span>
+        <span class="project-tag">Jira</span>
+        <span class="project-tag">Allure</span>
+      </div>
+      <ul class="project-points">
+        <li>Owned end-to-end test strategy and quality assurance delivery for 100+ customer payment flows spanning initiation → FX conversion → confirmation, achieving zero critical defect escapes to production.</li>
+        <li>Built a tri-layer automation suite (Browser + Mobile + API) with reusable auth and payload utilities, dramatically increasing test maintainability and coverage depth.</li>
+        <li>Produced Allure trend reports enabling quality monitoring and stakeholder visibility across 10+ production releases — driving continuous improvement cycles across the team.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- EDUCATION -->
+<section id="education">
+  <div class="wrapper">
+    <div class="section-label reveal">
+      <span class="tag">04 / Education</span>
+      <span class="rule"></span>
+    </div>
+    <h2 class="section-title reveal">Academic Background</h2>
+    <p class="section-sub reveal">Computer science foundation underpinning engineering excellence</p>
+
+    <div class="edu-card reveal">
+      <div>
+        <div class="edu-degree">Bachelor of Technology – Computer Science & Engineering</div>
+        <div class="edu-school">Gyan Ganga College of Technology · Jabalpur, Madhya Pradesh</div>
+        <div class="edu-year">Graduated 2023</div>
+      </div>
+      <div class="edu-cgpa">
+        <span class="big">8.86</span>
+        <span class="small">CGPA / 10</span>
       </div>
     </div>
   </div>
 </section>
 
-<!-- CERTIFICATIONS -->
-<section id="certifications">
-  <div class="section-header">
-    <span class="section-num">04</span>
-    <h2 class="section-title">Certifications & Education</h2>
-  </div>
+<!-- CERTS & AWARDS -->
+<section id="certs">
+  <div class="wrapper">
+    <div class="section-label reveal">
+      <span class="tag">05 / Recognition</span>
+      <span class="rule"></span>
+    </div>
+    <h2 class="section-title reveal">Certifications & Awards</h2>
+    <p class="section-sub reveal">Industry credentials and performance recognition</p>
 
-  <div class="cert-grid">
-    <div class="cert-item">
-      <div class="cert-icon">☕</div>
-      <div>
-        <div class="cert-name">Oracle Java Programming Badge</div>
-        <div class="cert-org">Oracle Corporation</div>
+    <div class="certs-grid">
+      <div class="cert-item reveal">
+        <div class="cert-icon gold">☕</div>
+        <div>
+          <div class="cert-text-title">Oracle Java Programming Badge</div>
+          <div class="cert-text-sub">Oracle Certified</div>
+        </div>
       </div>
-    </div>
-    <div class="cert-item">
-      <div class="cert-icon">🔒</div>
-      <div>
-        <div class="cert-name">SCW Security — White Belt ×4</div>
-        <div class="cert-org">Secure Code Warrior</div>
+      <div class="cert-item reveal">
+        <div class="cert-icon cyan">🔒</div>
+        <div>
+          <div class="cert-text-title">SCW Security Certifications</div>
+          <div class="cert-text-sub">4× White Belt · 1× Yellow Belt · 1× Orange Belt</div>
+        </div>
       </div>
-    </div>
-    <div class="cert-item">
-      <div class="cert-icon">🟡</div>
-      <div>
-        <div class="cert-name">SCW Security — Yellow Belt</div>
-        <div class="cert-org">Secure Code Warrior</div>
+      <div class="cert-item reveal">
+        <div class="cert-icon gold">🏅</div>
+        <div>
+          <div class="cert-text-title">Gold Medal – National Science Olympiad</div>
+          <div class="cert-text-sub">Academic Excellence</div>
+        </div>
       </div>
-    </div>
-    <div class="cert-item">
-      <div class="cert-icon">🟠</div>
-      <div>
-        <div class="cert-name">SCW Security — Orange Belt</div>
-        <div class="cert-org">Secure Code Warrior</div>
+      <div class="cert-item reveal">
+        <div class="cert-icon cyan">⭐</div>
+        <div>
+          <div class="cert-text-title">Pat on the Back Award</div>
+          <div class="cert-text-sub">HSBC · Exceptional performance recognition</div>
+        </div>
       </div>
-    </div>
-    <div class="cert-item" style="border-color: var(--accent2); grid-column: span 2;">
-      <div class="cert-icon" style="background: var(--accent2);">🎓</div>
-      <div>
-        <div class="cert-name">B.Tech — Computer Science & Engineering · CGPA 8.86/10</div>
-        <div class="cert-org">Gyan Ganga College of Technology, Jabalpur · Class of 2023</div>
+      <div class="cert-item reveal">
+        <div class="cert-icon gold">🏆</div>
+        <div>
+          <div class="cert-text-title">Circle of Excellence (×3)</div>
+          <div class="cert-text-sub">HSBC · Outstanding contributions to major projects</div>
+        </div>
       </div>
     </div>
   </div>
 </section>
-
-<!-- AWARDS STRIP -->
-<div class="awards-strip">
-  <div class="award-item">
-    <div class="award-icon">🏅</div>
-    <div>
-      <div class="award-name">Pat on the Back Award</div>
-      <div class="award-org">HSBC · Exceptional Performance</div>
-    </div>
-  </div>
-  <div style="width: 1px; height: 48px; background: rgba(255,255,255,0.2); flex-shrink:0;"></div>
-  <div class="award-item">
-    <div class="award-icon">🏆</div>
-    <div>
-      <div class="award-name">Circle of Excellence Award ×3</div>
-      <div class="award-org">HSBC · Outstanding Project Contributions</div>
-    </div>
-  </div>
-  <div style="width: 1px; height: 48px; background: rgba(255,255,255,0.2); flex-shrink:0;"></div>
-  <div class="award-item">
-    <div class="award-icon">🥇</div>
-    <div>
-      <div class="award-name">Gold Medal</div>
-      <div class="award-org">National Science Olympiad</div>
-    </div>
-  </div>
-</div>
 
 <!-- CONTACT -->
 <section id="contact">
-  <h2 class="contact-title">Let's build something<br><em>reliable.</em></h2>
-  <p class="contact-desc">Open to QA Automation roles in BFSI, fintech, or product-first companies. Let's talk about how quality engineering can accelerate your delivery.</p>
-  <div class="contact-links">
-    <a href="mailto:snehapritmani79@gmail.com" class="contact-link primary">✉ snehapritmani79@gmail.com</a>
-    <a href="https://linkedin.com/in/sneha-pritmani27" target="_blank" class="contact-link secondary">LinkedIn ↗</a>
-    <a href="tel:+918989000473" class="contact-link secondary">+91 89890 00473</a>
+  <div class="wrapper">
+    <h2 class="contact-title">Let's Connect</h2>
+    <p class="contact-sub">Open to new opportunities in QA Automation & SDET roles</p>
+    <div style="display:flex;justify-content:center;margin-bottom:2rem;">
+      <span class="contact-avail"><span class="dot"></span>Actively Interviewing · Immediate Joiner</span>
+    </div>
+    <div class="contact-links">
+      <a class="contact-link" href="mailto:snehapritmani79@gmail.com">
+        <span class="icon">✉</span> snehapritmani79@gmail.com
+      </a>
+      <a class="contact-link" href="tel:+918989000473">
+        <span class="icon">📞</span> +91-8989000473
+      </a>
+      <a class="contact-link" href="https://linkedin.com/in/sneha-pritmani27" target="_blank">
+        <span class="icon">🔗</span> linkedin.com/in/sneha-pritmani27
+      </a>
+      <a class="contact-link" href="#">
+        <span class="icon">📍</span> Pune, Maharashtra
+      </a>
+    </div>
+    <p class="footer-copy">© 2026 Sneha Pritmani · QA Automation Engineer · All rights reserved</p>
   </div>
 </section>
-
-<!-- FOOTER -->
-<footer>
-  <span>© 2025 Sneha Pritmani</span>
-  <span>Pune, Maharashtra · India</span>
-  <span>QA Automation Engineer</span>
-</footer>
 </body>
 </html>
